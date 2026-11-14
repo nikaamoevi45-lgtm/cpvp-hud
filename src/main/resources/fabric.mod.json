@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "cpvphud",
+  "version": "${version}",
+  "name": "CPvP HUD",
+  "description": "Crystal, obsidian, totem and gapple counters plus ping and FPS.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.cpvphud.CpvpHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
